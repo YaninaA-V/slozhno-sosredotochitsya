@@ -315,7 +315,7 @@ gap: 20px;
 .content__picture {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   margin-top: 10px;
 }
 .decorated-zone::before {
@@ -327,7 +327,7 @@ gap: 20px;
   inset-block-end: 10px;
 }
 .footer {
-  block-size: min(100vb, 668px);
+  place-items: center;
   margin-block-start: 40px;
 }
 }
