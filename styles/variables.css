@@ -6,7 +6,7 @@
   --text-color: #F1B2CE;
   --text-no-decoration: #FF0070;
   --text-transparency: #FF007066;
-  --text-subtitle: #000028;     
+  --text-subtitle: #000028;
   --main-font: 'IBM Plex Mono';
   --margin: 0 20px;
   --margin-content-box: 80px;
@@ -14,7 +14,4 @@
   --visible-rec: visible;
   
 }
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+
