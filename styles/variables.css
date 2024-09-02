@@ -1,3 +1,19 @@
+:root {
+  --bg-image: url(../images/cover-image.png);
+  --accent-color: #ff0070;
+  --bg-color: #000028;
+  --text-color-h1: #DB00FF;
+  --text-color: #F1B2CE;
+  --text-no-decoration: #FF0070;
+  --text-transparency: #FF007066; 
+  --text-subtitle: #000028;     
+  --main-font: 'IBM Plex Mono';
+  --margin: 0 20px;
+  --margin-content-box: 80px;
+  --margin-titel: 60px;
+  --visible-rec: visible;
+  
+}
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
