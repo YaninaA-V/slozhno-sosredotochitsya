@@ -1,13 +1,17 @@
 .page.theme_dark {
   --accent-color: #ff0070;
   --bg-color: #000028;
-  --text-color-h1: #DB00FF;
+  --text-color-for-titel: #DB00FF;
   --text-color: #F1B2CE;
   --text-no-decoration: #FF0070;
   --text-transparency: #FF007066;
-  --main-font: 'IBM Plex Mono';
   --bg-image: url(../images/cover-image-dark.png);
   --visible-rec: visible;
   --text-subtitle: #000028;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url(../images/cover-image-dark.png);
+  }
+}

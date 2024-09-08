@@ -1,7 +1,7 @@
 .page.theme_light {
   --accent-color: #ff8dcb;
   --bg-color: #FFF1F7;
-  --text-color-h1: #FFC2E6;
+  --text-color-for-titel: #FFC2E6;
   --text-color: #353430;
   --text-no-decoration: #353430;
   --text-transparency: #32312D66;
@@ -15,5 +15,6 @@
     --accent-color: #ff8dcb;
     --bg-color: #FFF1F7;
     --text-color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
   }
 }
