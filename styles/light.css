@@ -1,20 +1,25 @@
 .page.theme_light {
   --accent-color: #ff8dcb;
-  --bg-color: #FFF1F7;
-  --text-color-for-titel: #FFC2E6;
+  --bg-color: #fff1f7;
+  --text-color-for-titel: #ffc2e6;
   --text-color: #353430;
   --text-no-decoration: #353430;
-  --text-transparency: #32312D66;
+  --text-transparency: #32312d66;
   --bg-image: url(../images/cover-image-light.png);
   --visible-rec: hidden;
   --text-subtitle: #353430;
-  }
+}
 
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
+    --text-color-for-titel: #ffc2e6;
     --text-color: #353430;
+    --text-no-decoration: #353430;
+    --text-transparency: #32312d66;
     --bg-image: url(../images/cover-image-light.png);
+    --visible-rec: hidden;
+    --text-subtitle: #353430;
   }
 }

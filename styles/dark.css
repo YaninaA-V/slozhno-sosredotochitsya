@@ -10,8 +10,4 @@
   --text-subtitle: #000028;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-image: url(../images/cover-image-dark.png);
-  }
-}
+
