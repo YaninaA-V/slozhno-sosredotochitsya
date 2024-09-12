@@ -1,6 +1,6 @@
 .page {
   margin: 0 auto;
-  background-image: var(--bg-image, (../images/cover-image.png));
+  background-image: var(--bg-image, url(../images/cover-image-dark.png));
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +33,7 @@
 }
 .title-decor {
   background-color: var(--accent-color, #ff0070);
+  grid-column: span 2;
 }
 .heading_content-title {
   font-size: 18px;
